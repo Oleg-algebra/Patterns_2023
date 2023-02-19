@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/lab_02_Factory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_2_1/task_3_2_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_2_2/input01_solution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_2_2/task_3_2_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/BiQuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/BiquadraticSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Equation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/LinearSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/QuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/QuadraticSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Solver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_2_1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_2_1/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_1/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_2_2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_2_2/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_2/src/Student.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LxnvQHwdU5f0yoA37HJpKarcxV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Oleg/Универ/Магістр/1 курс 2 семестр/Шаблони проектування ПО/Patterns_2023/lab_02_Factory/task_3_2_1/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Oleg\Универ\Магістр\1 курс 2 семестр\Шаблони проектування ПО\Patterns_2023\lab_02_Factory\task_3_2_1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="task_3_2_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="task_3_2_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="" />
+      <created>1676821831730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676821831730</updated>
+      <workItem from="1676821833557" duration="3106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
