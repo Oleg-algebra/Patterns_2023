@@ -1,41 +1,52 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class BiQuadraticEquation extends Equation {
+    public BiQuadraticEquation(ArrayList<Double> coefficients) {
+        super(coefficients);
+    }
+
     @Override
-    public ArrayList<Double> solve(ArrayList<Double> coefficients) {
+    public void solve() {
         double a = coefficients.get(0);
         double b = coefficients.get(2);
         double c = coefficients.get(4);
-        QuadraticEquation quadraticEquation = new QuadraticEquation();
-        if(a==0){
-            roots = quadraticEquation.solve(new ArrayList<>(coefficients.subList(2,coefficients.size())));
-            if(roots.size()>2){
-                roots.add(0.0);
-                roots.add(0.0);
 
-            }
-        }else{
-            ArrayList<Double> roots1;
-            ArrayList<Double> coeff = new ArrayList<>();
-            coeff.add(a);
-            coeff.add(b);
-            coeff.add(c);
-            roots1 = quadraticEquation.solve(coeff);
-            //System.out.println(roots1);
-            roots.clear();
-            if(roots1.size()==0){
-                return roots;
-            }else{
-                for (double x : roots1) {
-                    if (x > 0) {
+        double D = b*b - 4*a*c;
+        if(D>=0){
+            if(D==0){
+                double x = -b/(2*a);
+                if(x>=0){
+                    if(x>0){
                         roots.add(Math.sqrt(x));
                         roots.add(-Math.sqrt(x));
-                    } else if (x == 0) {
-                        roots.add(0.0);
+                    }else{
+                        roots.add(x);
                     }
                 }
             }
+            else{
+                //System.out.println("--->2");
+                double x1 = (-b + Math.sqrt(D))/(2*a);
+                double x2 = (-b - Math.sqrt(D))/(2*a);
+                if(x1>=0){
+                    if(x1==0){
+                        roots.add(x1);
+                    }else{
+                        roots.add(Math.sqrt(x1));
+                        roots.add(-Math.sqrt(x1));
+                    }
+                }
+            if(x2>=0){
+                if(x2==0){
+                    roots.add(x2);
+                }else{
+                    roots.add(Math.sqrt(x2));
+                    roots.add(-Math.sqrt(x2));
+                }
+            }
         }
-        return roots;
     }
+
+}
 }
