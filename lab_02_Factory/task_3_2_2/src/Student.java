@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -13,7 +14,8 @@ public class Student {
     private ArrayList<Equation> noRoots = new ArrayList<>();
     private double maxRoot = Double.MIN_NORMAL;
     private double minRoot = Double.MAX_VALUE;
-
+    private Equation minEquation;
+    private Equation maxEquation;
     private int checkDeegree(ArrayList<Double> coefficients){
         int n = 0;
         for(double c : coefficients.subList(0,coefficients.size())){
@@ -86,9 +88,11 @@ public class Student {
                 oneRoot.add(equation);
                 if (roots.get(0) > maxRoot) {
                     maxRoot = roots.get(0);
+                    maxEquation = equation;
                 }
                 if (roots.get(0) < minRoot) {
                     minRoot = roots.get(0);
+                    minEquation = equation;
                 }
             } else if (roots.size() == 2) {
                 twoRoots.add(equation);
@@ -103,7 +107,7 @@ public class Student {
 
     }
 
-    public void showResults() {
+    public void showReportToConsole() {
         System.out.println("Equations without roots");
         for (Equation equation : noRoots) {
             System.out.println("    equation: " + equation.getCoefficients() + ";  roots: " + equation.getRoots());
@@ -113,8 +117,7 @@ public class Student {
         for (Equation equation : oneRoot) {
             System.out.println("    equation: " + equation.getCoefficients() + ";  roots: " + equation.getRoots());
         }
-        System.out.println("Minimal root: "+ minRoot);
-        System.out.println("Maximal root: "+ maxRoot);
+
 
         System.out.println("Equations with two roots");
         for (Equation equation : twoRoots) {
@@ -135,5 +138,46 @@ public class Student {
         for (Equation equation : infRoots) {
             System.out.println("    equation: " + equation.getCoefficients() + ";  roots: infinitely many");
         }
+    }
+    public void showMinMaxRoots(){
+        System.out.println("Minimal root: "+ minRoot+";  equation: "+minEquation.getCoefficients());
+        System.out.println("Maximal root: "+ maxRoot+";  equation: "+maxEquation.getCoefficients());
+    }
+
+    public void writeReportFile(String fileName) throws FileNotFoundException {
+        PrintWriter writer = new PrintWriter(fileName);
+        writer.println("--------"+fileName+"--------");
+        writer.println("Equations without roots");
+        for (Equation equation : noRoots) {
+            writer.println("    equation: " + equation.getCoefficients() + ";  roots: " + equation.getRoots());
+        }
+
+        writer.println("Equations with one root");
+        for (Equation equation : oneRoot) {
+            writer.println("    equation: " + equation.getCoefficients() + ";  roots: " + equation.getRoots());
+        }
+        writer.println("Minimal root: "+ minRoot+";  equation: "+minEquation.getCoefficients());
+        writer.println("Maximal root: "+ maxRoot+";  equation: "+maxEquation.getCoefficients());
+
+        writer.println("Equations with two roots");
+        for (Equation equation : twoRoots) {
+            writer.println("    equation: " + equation.getCoefficients() + ";  roots: " + equation.getRoots());
+        }
+
+        writer.println("Equations with three roots");
+        for (Equation equation : threeRoots) {
+            writer.println("    equation: " + equation.getCoefficients() + ";  roots: " + equation.getRoots());
+        }
+
+        writer.println("Equations with four roots");
+        for (Equation equation : fourRoots) {
+            writer.println("    equation: " + equation.getCoefficients() + ";  roots: " + equation.getRoots());
+        }
+
+        writer.println("Equations with infinitely many roots");
+        for (Equation equation : infRoots) {
+            writer.println("    equation: " + equation.getCoefficients() + ";  roots: infinitely many");
+        }
+        writer.close();
     }
 }
