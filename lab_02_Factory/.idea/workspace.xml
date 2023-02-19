@@ -4,32 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/lab_02_Factory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_2_1/task_3_2_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_2_2/input01_solution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_2_2/task_3_2_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/BiQuadraticEquation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/BiquadraticSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Equation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/LinearSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/QuadraticEquation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/QuadraticSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Solver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_2/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_2_1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_2_1/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_1/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_2_2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_2_2/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_2_2/src/Student.java" afterDir="false" />
+    <list default="true" id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="added output into file">
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/Cacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/CacaoRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/CoffeeWirhMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/CoffeeWithMilkRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/HotChocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/HotChocolateRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeCafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/CoffeeCafe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -57,14 +52,24 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Oleg\Универ\Магістр\1 курс 2 семестр\Шаблони проектування ПО\Patterns_2023\lab_02_Factory\task_3_2_1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="task_3_2_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="task_3_1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -91,11 +97,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676821831730</updated>
-      <workItem from="1676821833557" duration="3106000" />
+      <workItem from="1676821833557" duration="4663000" />
     </task>
+    <task id="LOCAL-00001" summary="added output into file">
+      <created>1676825180684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676825180684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added output into file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added output into file" />
   </component>
 </project>
