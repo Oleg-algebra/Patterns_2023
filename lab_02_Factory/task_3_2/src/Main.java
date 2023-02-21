@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         ArrayList<String> fileInput = new ArrayList<>();
-        fileInput.add("task_3_2_2/input01.txt");
-        fileInput.add("task_3_2_2/input02.txt");
-        fileInput.add("task_3_2_2/input03.txt");
+        fileInput.add("task_3_2/input01.txt");
+        fileInput.add("task_3_2/input02.txt");
+        fileInput.add("task_3_2/input03.txt");
         Student student = new Student();
         for(String fileName : fileInput){
             student.solveTask(fileName);

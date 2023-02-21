@@ -1,4 +1,4 @@
---------task_3_2_2/input03_solution.txt--------
+--------task_3_2/input03_solution.txt--------
 Equations without roots
     equation: [-84.0, 0.0, 39.0, 0.0, -6.0];  roots: []
     equation: [-46.0, -12.0, -39.0];  roots: []
