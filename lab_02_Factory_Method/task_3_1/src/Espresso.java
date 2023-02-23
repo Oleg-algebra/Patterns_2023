@@ -1,9 +1,10 @@
-public class Espresso extends Coffee {
+public class Espresso extends Drink {
+    int coffeeBinsPrice = 20;
 
-    public Espresso(int volume, int ingredientsPrice) {
-        this.volume = volume;
-        this.ingredientsPrice = ingredientsPrice;
-        this.coffeeName = "Espresso";
+    public Espresso(int volume) {
+        super(volume);
+        this.ingredientsPrice.add(coffeeBinsPrice);
+        setDrinkPrice();
+        this.drinkName = "Espresso";
     }
-
 }

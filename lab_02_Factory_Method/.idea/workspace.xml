@@ -4,7 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="task 3_2 solution" />
+    <list default="true" id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="task 3_2 solution">
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/AmericanoMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/Capuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/CapuccinoMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/DrinkMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/EspressoMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/LatteMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/TeaWithMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3_1/src/TeaWithMilkMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiTram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiTrolleybus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaTram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaTrolleybus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/TransportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoTram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoTrolleybus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Americano.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/Americano.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/AmericanoRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Cacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CacaoRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Cappuccino.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CappuccinoRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeCafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/CoffeeCafe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeWirhMilk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeWithMilkRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/Espresso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/EspressoRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/HotChocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/HotChocolateRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Latte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/Latte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/LatteRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/AmericanoRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/Cacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/CacaoRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/Cappuccino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/CappuccinoRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeCafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/CoffeeCafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeWirhMilk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeWithMilkRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/EspressoRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/HotChocolate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/HotChocolateRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_1/src/LatteRecipe.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,20 +87,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Oleg/Универ/Магістр/1 курс 2 семестр/Шаблони проектування ПО/Patterns_2023/lab_02_Factory_Method",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Oleg/Универ/Магістр/1 курс 2 семестр/Шаблони проектування ПО/Patterns_2023/lab_02_Factory_Method&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -50,7 +109,7 @@
       <recent name="E:\Oleg\Универ\Магістр\1 курс 2 семестр\Шаблони проектування ПО\Patterns_2023\lab_02_Factory\task_3_2_1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="task_3_2_1" />
@@ -81,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -100,6 +159,7 @@
       <workItem from="1676964293457" duration="659000" />
       <workItem from="1676968213821" duration="653000" />
       <workItem from="1676969243413" duration="1028000" />
+      <workItem from="1677162276566" duration="5808000" />
     </task>
     <task id="LOCAL-00001" summary="added output into file">
       <created>1676825180684</created>

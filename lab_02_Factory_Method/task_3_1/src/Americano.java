@@ -1,7 +1,11 @@
-public class Americano extends Coffee {
-    public Americano(int volume, int ingredientsPrice) {
-        this.coffeeName = "Americano";
-        this.ingredientsPrice = ingredientsPrice;
-        this.volume = volume;
+public class Americano extends Drink {
+    int coffeBinsPrice = 50;
+    int sugarPrice = 30;
+    public Americano(int volume) {
+        super(volume);
+        this.ingredientsPrice.add(coffeBinsPrice);
+        this.ingredientsPrice.add(sugarPrice);
+        setDrinkPrice();
+        this.drinkName = "Americano";
     }
 }
