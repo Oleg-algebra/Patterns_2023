@@ -4,66 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="task 3_2 solution">
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/AmericanoMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/Capuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/CapuccinoMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/DrinkMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/EspressoMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/LatteMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/TeaWithMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_1/src/TeaWithMilkMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiTram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/HyundaiTrolleybus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaTram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/SkodaTrolleybus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/TransportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoTram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab_03_Abstract_Factory/task_2_2/src/VolvoTrolleybus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Americano.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/Americano.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/AmericanoRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Cacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CacaoRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Cappuccino.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CappuccinoRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeCafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/CoffeeCafe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeWirhMilk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/CoffeeWithMilkRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/EspressoRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/HotChocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/HotChocolateRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/Latte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task_3_1/Latte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_3_1/LatteRecipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/AmericanoRecipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/Cacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/CacaoRecipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/Cappuccino.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/CappuccinoRecipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeCafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/CoffeeCafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeRecipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeWirhMilk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/CoffeeWithMilkRecipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/EspressoRecipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/HotChocolate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/HotChocolateRecipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1/src/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_1/src/LatteRecipe.java" beforeDir="false" />
-    </list>
+    <list default="true" id="4bda2e81-d5de-4a6b-9209-32cba4214eea" name="Changes" comment="task 3_1 some minor changes in solution" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +100,7 @@
       <workItem from="1676964293457" duration="659000" />
       <workItem from="1676968213821" duration="653000" />
       <workItem from="1676969243413" duration="1028000" />
-      <workItem from="1677162276566" duration="5808000" />
+      <workItem from="1677162276566" duration="6367000" />
     </task>
     <task id="LOCAL-00001" summary="added output into file">
       <created>1676825180684</created>
@@ -189,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676968748113</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task 3_1 some minor changes in solution">
+      <created>1677169837834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677169837834</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +147,7 @@
     <MESSAGE value="added output into file" />
     <MESSAGE value="added more coffee recipes" />
     <MESSAGE value="task 3_2 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3_2 solution" />
+    <MESSAGE value="task 3_1 some minor changes in solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 3_1 some minor changes in solution" />
   </component>
 </project>
