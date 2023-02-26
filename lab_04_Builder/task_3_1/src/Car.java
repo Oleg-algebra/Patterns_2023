@@ -20,9 +20,9 @@ public class Car {
     final private CarColor carColor;  //  Колір
     final private Engine engine;      //  Двигун
     final private Wheel wheel;        //  Колеса
-    private String mark;
+    final private String mark;
 
-    private Transmission transmission;
+    final private Transmission transmission;
     public Car(String mark,Type type, CarColor carColor,
                Engine engine, Wheel wheel,Transmission transmission) {
         this.type = type;
