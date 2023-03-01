@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lab_04_Builder.iml" filepath="$PROJECT_DIR$/lab_04_Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lab_04_Builder.iml" filepath="$PROJECT_DIR$/.idea/lab_04_Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task_3_1/task_3_1.iml" filepath="$PROJECT_DIR$/task_3_1/task_3_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task_3_2/task_3_2.iml" filepath="$PROJECT_DIR$/task_3_2/task_3_2.iml" />
     </modules>
   </component>
 </project>
