@@ -5,10 +5,10 @@ public class Engine {
         Electric   // Електрика
     }
 
-    final int power;     //  Потужність
-    final int torque;    //  Крутний момент
-    final Fuel fuel;     //  Вид пального
-    final float volume;  //  Об'єм двигуна
+    private final int power;     //  Потужність
+    private final int torque;    //  Крутний момент
+    private final Fuel fuel;     //  Вид пального
+    private final float volume;  //  Об'єм двигуна
 
     public Engine(int power, int torque, Fuel fuel, float volume) {
         this.power = power;

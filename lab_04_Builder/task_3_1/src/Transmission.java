@@ -4,8 +4,8 @@ public class Transmission {
         Automatic,
         CVT
     }
-    final int gearsNumber;
-    final Type type;
+    private final int gearsNumber;
+    private final Type type;
 
     public Transmission(int gearsNumber, Type type) {
         this.gearsNumber = gearsNumber;

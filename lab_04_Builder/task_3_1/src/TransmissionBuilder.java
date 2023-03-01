@@ -1,6 +1,6 @@
 public class TransmissionBuilder {
-    int gearsNumber = 5;
-    Transmission.Type type = Transmission.Type.Manual;
+    private int gearsNumber = 5;
+    private Transmission.Type type = Transmission.Type.Manual;
 
     public TransmissionBuilder setGearsNumber(int gearsNumber) {
         this.gearsNumber = gearsNumber;

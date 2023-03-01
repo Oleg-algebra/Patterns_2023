@@ -12,7 +12,7 @@ public class Wheel {
         all_terrain
     }
     final private Material material;   // Матеріал диску
-    final int diameter;                //  Діаметр колеса
+    final private int diameter;                //  Діаметр колеса
     final private Tires tire;
 
     public Wheel(Material material,
