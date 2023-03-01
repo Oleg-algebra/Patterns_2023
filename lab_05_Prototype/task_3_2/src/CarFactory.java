@@ -1,0 +1,88 @@
+public class CarFactory {
+
+    public Car buildToyota(Car.CarColor carColor, Car.Type carType){
+        WheelBuilder wheelBuilder = new WheelBuilder();
+        EngineBuilder engineBuilder = new EngineBuilder();
+        TransmissionBuilder transmissionBuilder = new TransmissionBuilder();
+        CarBuilder carBuilder = new CarBuilder();
+
+
+        Wheel wheel = wheelBuilder.setMaterial(Wheel.Material.Steel)
+                .setDiameter(15)
+                .setTire(Wheel.Tires.summer)
+                .build();
+
+        Engine engine = engineBuilder.setFuel(Engine.Fuel.Petrol)
+                .setPower(150)
+                .setTorque(140)
+                .setVolume(1.5f)
+                .build();
+        Transmission transmission = transmissionBuilder.setGearsNumber(6)
+                .setType(Transmission.Type.Automatic)
+                .build();
+
+        return carBuilder.setType(carType)
+                .setCarColor(carColor)
+                .setMark("Toyota")
+                .setEngine(engine)
+                .setTransmission(transmission)
+                .setWheel(wheel)
+                .build();
+    }
+
+    public Car buildPorshe(Car.CarColor carColor,Car.Type type){
+        WheelBuilder wheelBuilder = new WheelBuilder();
+        EngineBuilder engineBuilder = new EngineBuilder();
+        CarBuilder carBuilder = new CarBuilder();
+        TransmissionBuilder transmissionBuilder = new TransmissionBuilder();
+
+        Wheel wheel = wheelBuilder.setMaterial(Wheel.Material.Forged)
+                .setDiameter(20)
+                .setTire(Wheel.Tires.all_seasons)
+                .build();
+
+        Engine engine = engineBuilder.setFuel(Engine.Fuel.Electric)
+                .setPower(100)
+                .setTorque(120)
+                .setVolume(1.2f)
+                .build();
+        Transmission transmission = transmissionBuilder.setType(Transmission.Type.CVT)
+                .build();
+
+        return carBuilder.setType(type)
+                .setCarColor(carColor)
+                .setMark("Porshe")
+                .setEngine(engine)
+                .setTransmission(transmission)
+                .setWheel(wheel)
+                .build();
+    }
+    public Car buildLamorghini(Car.CarColor carColor){
+        WheelBuilder wheelBuilder = new WheelBuilder();
+        EngineBuilder engineBuilder = new EngineBuilder();
+        CarBuilder carBuilder = new CarBuilder();
+        TransmissionBuilder transmissionBuilder = new TransmissionBuilder();
+
+        Wheel wheel = wheelBuilder.setMaterial(Wheel.Material.Steel)
+                .setDiameter(30)
+                .setTire(Wheel.Tires.highway)
+                .build();
+
+        Engine engine = engineBuilder.setFuel(Engine.Fuel.Petrol)
+                .setPower(500)
+                .setTorque(800)
+                .setVolume(5.0f)
+                .build();
+        Transmission transmission = transmissionBuilder.setType(Transmission.Type.Automatic)
+                .setGearsNumber(7)
+                .build();
+
+        return carBuilder.setType(Car.Type.Sport_car)
+                .setCarColor(carColor)
+                .setMark("Lamborghini")
+                .setEngine(engine)
+                .setTransmission(transmission)
+                .setWheel(wheel)
+                .build();
+    }
+}
