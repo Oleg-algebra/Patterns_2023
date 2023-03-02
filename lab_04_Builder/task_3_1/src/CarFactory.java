@@ -1,6 +1,6 @@
 public class CarFactory {
 
-    public Car buildToyota(Car.CarColor carColor, Car.Type carType){
+    public Car buildToyotaSedan(Car.CarColor carColor){
         WheelBuilder wheelBuilder = new WheelBuilder();
         EngineBuilder engineBuilder = new EngineBuilder();
         TransmissionBuilder transmissionBuilder = new TransmissionBuilder();
@@ -21,7 +21,7 @@ public class CarFactory {
                 .setType(Transmission.Type.Automatic)
                 .build();
 
-        return carBuilder.setType(carType)
+        return carBuilder.setType(Car.Type.Sedan)
                 .setCarColor(carColor)
                 .setMark("Toyota")
                 .setEngine(engine)
@@ -30,7 +30,7 @@ public class CarFactory {
                 .build();
     }
 
-    public Car buildPorshe(Car.CarColor carColor,Car.Type type){
+    public Car buildPorsheSUV(Car.CarColor carColor){
         WheelBuilder wheelBuilder = new WheelBuilder();
         EngineBuilder engineBuilder = new EngineBuilder();
         CarBuilder carBuilder = new CarBuilder();
@@ -49,7 +49,7 @@ public class CarFactory {
         Transmission transmission = transmissionBuilder.setType(Transmission.Type.CVT)
                 .build();
 
-        return carBuilder.setType(type)
+        return carBuilder.setType(Car.Type.SUV)
                 .setCarColor(carColor)
                 .setMark("Porshe")
                 .setEngine(engine)
