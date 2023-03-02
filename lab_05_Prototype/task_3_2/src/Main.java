@@ -16,7 +16,7 @@ public class Main {
         Car lamboCopy = lamborghini.clone();
         System.out.println(lamboCopy);
 
-        // change wheels configuration in original lamborgini
+        // change wheels configuration in original lamborghini
         lamborghini.getWheel().setDiameter(10);
         lamborghini.getWheel().setMaterial(Wheel.Material.Alloy);
         lamborghini.getWheel().setTire(Wheel.Tires.all_terrain);
