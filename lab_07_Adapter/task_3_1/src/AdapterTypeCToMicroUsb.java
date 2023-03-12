@@ -13,6 +13,6 @@ public class AdapterTypeCToMicroUsb implements MicroUsbCharger {
 
     @Override
     public float getOutputAmperage() {
-        return (float) (typeCCharger.getOutputPower()/5.0f);
+        return typeCCharger.getOutputPower()/5.0f;
     }
 }

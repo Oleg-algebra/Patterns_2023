@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="VehicleCalculatorLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/task_3_2/libs/VehicleCalculatorLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
