@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MicroUsb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/task_3_1/libs/MicroUsb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
