@@ -3,7 +3,6 @@ public class Main {
     public static void main(String[] args) {
 
         String fileName = "youtubevideo.ogg";
-        String format = "mp4";
 
         VideoFile videoFile = new VideoFile(fileName,
             new Buffer("Byte buffer of video"),
