@@ -10,7 +10,7 @@ public class UserConverter {
         AudioMixer audioMixer = new AudioMixer();
         audioMixer.fix(videoFileConverted, videoFile.getAudioBuffer());
 
-        System.out.println("====== VideoConversionFacade: conversion completed =======");
+        System.out.println("====== VideoConversionFacade: conversion completed =======\n");
         return videoFileConverted;
     }
 
