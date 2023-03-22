@@ -1,3 +1,4 @@
+
 public class BaseDecorator implements Printable{
     private final Printable wrapped;
     public BaseDecorator(Printable printableString) {

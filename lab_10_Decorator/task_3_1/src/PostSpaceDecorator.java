@@ -1,5 +1,5 @@
-public class PostSpaceEndDecorator extends BaseDecorator {
-    public PostSpaceEndDecorator(Printable printableString) {
+public class PostSpaceDecorator extends BaseDecorator {
+    public PostSpaceDecorator(Printable printableString) {
         super(printableString);
     }
 
