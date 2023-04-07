@@ -36,8 +36,7 @@ public class ImageGallery {
             factory.createDisplayObject("task_2_2/resources/image10.jpeg"),
         };
         Random random = new Random();
-        int iter_number = 10
-                ;
+        int iter_number = 10;
         for (int i = 0; i<iter_number;i++) {
             int image_number = random.nextInt(images.length);
             DisplayObject image = images[image_number];
