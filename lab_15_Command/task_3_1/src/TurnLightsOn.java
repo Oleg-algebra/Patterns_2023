@@ -7,9 +7,6 @@ public class TurnLightsOn implements Command {
         lamps.add(lamp);
     }
 
-    public TurnLightsOn() {
-    }
-
     @Override
     public void addLamp(Lamp lamp) {
         if (!lamps.contains(lamp)) {

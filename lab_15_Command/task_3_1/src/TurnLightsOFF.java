@@ -3,8 +3,6 @@ import java.util.ArrayList;
 public class TurnLightsOFF implements Command {
     private final ArrayList<Lamp> lamps = new ArrayList<>();
 
-    public TurnLightsOFF() {
-    }
 
     public TurnLightsOFF(Lamp lamp) {
         lamps.add(lamp);

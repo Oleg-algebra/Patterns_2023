@@ -21,4 +21,12 @@ public class Controller {
             commandOFF.execute();
         }
     }
+
+    public Command getCommandON() {
+        return commandON;
+    }
+
+    public Command getCommandOFF() {
+        return commandOFF;
+    }
 }

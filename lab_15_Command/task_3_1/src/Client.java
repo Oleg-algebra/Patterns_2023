@@ -8,10 +8,10 @@ public class Client {
         };
         ControllersFactory factory = new ControllersFactory();
 
-        Controller controllerKitchenLamp = factory.getKitchenController(lamps[0]);
-        Controller controllerHallLamp = factory.getHallController(lamps[1]);
-        Controller controllerBedroomLamp = factory.getBedroomController(lamps[2]);
-        Controller controllerBathroomLamp = factory.getBathroomController(lamps[3]);
+        Controller controllerKitchenLamp = factory.getSimpleController(lamps[0]);
+        Controller controllerHallLamp = factory.getSimpleController(lamps[1]);
+        Controller controllerBedroomLamp = factory.getSimpleController(lamps[2]);
+        Controller controllerBathroomLamp = factory.getSimpleController(lamps[3]);
         Controller controllerUniversal = factory.getUniversalController(lamps);
 
         // Simulation
@@ -25,6 +25,8 @@ public class Client {
 
         controllerBedroomLamp.on();
         controllerBathroomLamp.on();
+        controllerKitchenLamp.on();
+        controllerHallLamp.on();
 
         controllerUniversal.off();
 
