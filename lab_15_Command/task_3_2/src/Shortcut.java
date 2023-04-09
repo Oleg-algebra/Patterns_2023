@@ -1,5 +1,5 @@
 public class Shortcut {
-    private Command command;
+    private final Command command;
 
     public Shortcut(Command command) {
         this.command = command;

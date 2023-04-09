@@ -1,5 +1,5 @@
 public class MenuItem {
-    private Command command;
+    private final Command command;
 
     public MenuItem(Command command) {
         this.command = command;
