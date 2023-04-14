@@ -1,10 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Реалізовує ітерації в ширину заданого дерева компонувальника
+ */
 public class WidthSearchIterator implements Iterator {
-    private boolean isFinished = false;
+    private boolean isFinished = false;         // індикатор завершення обходу дерева
     private Box currentNode;
-    private List<Integer> indices = new ArrayList<>();
+
     private List<Box> parentsNodes = new ArrayList<>();
     private List<Box> childrenNodes = new ArrayList<>();
     private int currentIndex = 0;
@@ -21,6 +24,15 @@ public class WidthSearchIterator implements Iterator {
         return !isFinished;
     }
 
+    /**
+     * Алгоритм ітерації в ширину.
+     * Обхід здійснюється по рівнях. Коли знаходимо коробку(перехід на інший рівень),
+     * то додаємо її до childrenNodes. Коли parentsNodes порожні, то ми заміняємо їх childrenNodes і
+     * продовжуємо обхід. Обхід закінчується коли списки parentsNodes та childrenNodes порожні одночасно,
+     * тобто батьки закінчились, і нових дітей не додалось(ми опинились на останньому рівні).
+     * По завершенню обходу дерева повертає null.
+     * @return екземпляри класу Item.
+     */
     @Override
     public Item next() {
 //        System.out.println(parentsNodes);
