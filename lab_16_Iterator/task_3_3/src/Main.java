@@ -62,16 +62,16 @@ public class Main {
             if(show || show_failure){
                 root1.execute();
                 System.out.println("====depth search=====");
-                System.out.println("Cheapest item: "+ itemsDepthSearch.get("min"));
-                System.out.println("Luxury item: "+ itemsDepthSearch.get("max"));
+                System.out.println("Cheapest items: "+ itemsDepthSearch.get("min"));
+                System.out.println("Luxury items: "+ itemsDepthSearch.get("max"));
 
                 System.out.println("====width search=====");
-                System.out.println("Cheapest item: "+ itemsWidthSearch.get("min"));
-                System.out.println("Luxury item: "+ itemsWidthSearch.get("max"));
+                System.out.println("Cheapest items: "+ itemsWidthSearch.get("min"));
+                System.out.println("Luxury items: "+ itemsWidthSearch.get("max"));
 
                 System.out.println("=============Linear search=============");
-                System.out.println("Cheapest item: "+itemsLinearSearch.get("min"));
-                System.out.println("Luxury item: "+ itemsLinearSearch.get("max"));
+                System.out.println("Cheapest items: "+itemsLinearSearch.get("min"));
+                System.out.println("Luxury items: "+ itemsLinearSearch.get("max"));
                 break;
             }
         }
