@@ -1,7 +1,7 @@
 public class PlayState implements State {
     @Override
     public void play(MediaPlayer mediaPlayer) {
-        System.out.printf("State: Play. Media player is playing track: %s.\n",mediaPlayer.getCurrentTrack());
+        System.out.println("State: Play. Action -- play. No changes.");
     }
 
     @Override
@@ -15,15 +15,15 @@ public class PlayState implements State {
         int trackNum = mediaPlayer.getCurrentTrackNum() + 1;
         mediaPlayer.setTrackNum(trackNum);
         System.out.printf("State: Play. Switch to next track: %s.\n", mediaPlayer.getCurrentTrack());
-        play(mediaPlayer);
+
     }
 
     @Override
     public void prev(MediaPlayer mediaPlayer) {
         int trackNum = mediaPlayer.getCurrentTrackNum() - 1;
         mediaPlayer.setTrackNum(trackNum);
-        System.out.printf("State: Play. Switch to prev track: %s.\n",mediaPlayer.getCurrentTrack());
-        play(mediaPlayer);
+        System.out.printf("State: Play. Switch to previous track: %s.\n",mediaPlayer.getCurrentTrack());
+
     }
 
     @Override

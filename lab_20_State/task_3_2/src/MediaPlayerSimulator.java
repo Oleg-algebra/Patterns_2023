@@ -30,7 +30,10 @@ public class MediaPlayerSimulator {
 
         ScheduledExecutorService executor  = Executors.newScheduledThreadPool(1);
         executor.scheduleAtFixedRate(() ->{
-            int operation_type = random.nextInt(5);
+            int operation_type = random.nextInt(4);
+            if(random.nextInt(50)<10){
+                operation_type = 4;
+            }
             switch (operation_type) {
                 case 0 -> mediaPlayer.play();
                 case 1 -> mediaPlayer.next();
@@ -38,7 +41,7 @@ public class MediaPlayerSimulator {
                 case 3 -> mediaPlayer.pause();
                 case 4 -> mediaPlayer.stop();
             }
-        },0,1, TimeUnit.SECONDS);
+        },0,2, TimeUnit.SECONDS);
 
     }
 }

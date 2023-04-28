@@ -8,21 +8,21 @@ public class StopState implements State {
 
     @Override
     public void pause(MediaPlayer mediaPlayer) {
-        System.out.println("State: Stop");
+        System.out.println("State: Stop. Action -- pause. No changes.");
     }
 
     @Override
     public void next(MediaPlayer mediaPlayer) {
-        System.out.println("State: Stop");
+        System.out.println("State: Stop. Action -- next. No changes.");
     }
 
     @Override
     public void prev(MediaPlayer mediaPlayer) {
-        System.out.println("State: Stop");
+        System.out.println("State: Stop. Action -- previous. No changes.");
     }
 
     @Override
     public void stop(MediaPlayer mediaPlayer) {
-        System.out.println("State: Stop");
+        System.out.println("State: Stop. Action -- stop. No changes.");
     }
 }

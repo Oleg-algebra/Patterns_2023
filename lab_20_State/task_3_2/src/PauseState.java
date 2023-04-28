@@ -7,8 +7,7 @@ public class PauseState implements State {
 
     @Override
     public void pause(MediaPlayer mediaPlayer) {
-        System.out.printf("State: Pause. Current track: %s\n",
-                mediaPlayer.getCurrentTrack());
+        System.out.println("State: Pause. Action -- pause. No changes.");
     }
 
     @Override
