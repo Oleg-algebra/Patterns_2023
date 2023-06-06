@@ -1,11 +1,8 @@
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class CarBuilder {
 
-    private final Map<String,Engine> engineCash = new HashMap<>();
-    private final Map<String, Wheel> wheelCash = new HashMap<>();
+    private final EngineCashFactory engineFactory = new EngineCashFactory();
+    private final WheelCashFactory wheelFactory = new WheelCashFactory();
 
     public CarBuilder setType(Car.Type type) {
         this.type = type;
@@ -18,21 +15,12 @@ public class CarBuilder {
     }
 
     public CarBuilder setEngine( int power,Engine.Fuel fuel) {
-        String key = power+"-"+fuel;
-        if(!engineCash.containsKey(key)){
-            engineCash.put(key,new Engine(power,fuel));
-        }
-        this.engine = engineCash.get(key);;
-
+        this.engine = engineFactory.getEngine(power, fuel);
         return this;
     }
 
     public CarBuilder setWheel(int diameter, Wheel.Material material) {
-        String key = diameter+"-"+material;
-        if(!wheelCash.containsKey(key)){
-            wheelCash.put(key,new Wheel(diameter, material));
-        }
-        this.wheel = wheelCash.get(key);
+        this.wheel = wheelFactory.getWheel(diameter, material);
         return this;
     }
 
@@ -42,19 +30,10 @@ public class CarBuilder {
     private Wheel wheel;
 
     public CarBuilder reset() {
-        String key;
         type = Car.Type.Sedan;
         carColor = Car.CarColor.White;
-        if(engineCash.isEmpty()){
-            key = 105 + "-" + Engine.Fuel.Petrol;
-            engineCash.put(key,new Engine(105, Engine.Fuel.Petrol));
-        }
-        engine = engineCash.get(105 + "-" + Engine.Fuel.Petrol);
-        if(wheelCash.isEmpty()){
-            key = 17 + "-" + Wheel.Material.Steel;
-            wheelCash.put(key,new Wheel(17, Wheel.Material.Steel));
-        }
-        wheel =wheelCash.get(17 + "-" + Wheel.Material.Steel) ;
+        engine = engineFactory.getEngine(105 , Engine.Fuel.Petrol);
+        wheel =wheelFactory.getWheel(17 , Wheel.Material.Steel) ;
         return this;
     }
 
